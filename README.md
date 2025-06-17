@@ -19,28 +19,28 @@ This is a Flask RESTful API for managing service tickets, inventory parts, and m
 # Folder Setup
 
 body_shop/
-├── __init__.py
-├── app.py
-├── config.py
-├── extensions.py
-├── models.py
-├── blueprints/
-│   ├── customer/
-│   │   ├── __init__.py
-│   │   └── routes.py
-│   ├── inventory/
-│   │   ├── __init__.py
-│   │   └── routes.py
-│   ├── mechanic/
-│   │   ├── __init__.py
-│   │   └── routes.py
-│   └── service_ticket/
-│       ├── __init__.py
-│       └── routes.py
-├── utils/
-│   ├── __init__.py
-│   ├── helpers.py
-│   └── validators.py
+- ├── __init__.py
+- ├── app.py
+- ├── config.py
+- ├── extensions.py
+- ├── models.py
+- ├── blueprints/
+- │   ├── customer/
+- │   │   ├── __init__.py
+- │   │   └── routes.py
+- │   ├── inventory/
+- │   │   ├── __init__.py
+- │   │   └── routes.py
+- │   ├── mechanic/
+- │   │   ├── __init__.py
+- │   │   └── routes.py
+- │   └── service_ticket/
+- │       ├── __init__.py
+- │       └── routes.py
+- ├── utils/
+- │   ├── __init__.py
+- │   ├── helpers.py
+- │   └── validators.py
 
 # Windows
 python -m venv body_shop
