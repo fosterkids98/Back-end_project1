@@ -51,7 +51,7 @@ python3 -m venv body_shop
 source body_shop/bin/activate
 
 # Install Dependencies
-pip install blinker cachelib click colorama Deprecated ecdsa Flask==3.1.1 Flask-Caching==2.3.1 Flask-Limiter==3.12 flask-marshmallow==1.3.0 Flask-SQLAlchemy==3.1.1 greenlet==3.2.3 itsdangerous==2.2.0 Jinja2==3.1.6 limits==5.2.0 markdown-it-py==3.0.0 MarkupSafe==3.0.2 marshmallow==4.0.0 marshmallow-sqlalchemy==1.4.2 mdurl==0.1.2 mysql-connector-python==9.3.0 ordered-set==4.1.0 packaging==25.0 pyasn1==0.6.1 Pygments==2.19.1 python-jose==3.5.0 rich==13.9.4 rsa==4.9.1 six==1.17.0 SQLAlchemy==2.0.41 typing_extensions==4.14.0 Werkzeug==3.1.3 wrapt==1.17.2
+pip install blinker cachelib click colorama Deprecated ecdsa Flask==3.1.1 Flask-Caching==2.3.1 Flask-Limiter==3.12 flask-marshmallow==1.3.0 Flask-SQLAlchemy==3.1.1 marshmallow==4.0.0 marshmallow-sqlalchemy==1.4.2 mysql-connector-python==9.3.0 python-jose==3.5.0 SQLAlchemy==2.0.41 wrapt==1.17.2
 
 
 ```bash
